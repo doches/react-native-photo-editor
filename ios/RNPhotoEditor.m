@@ -92,6 +92,10 @@ RCT_EXPORT_METHOD(Edit:(nonnull NSDictionary *)props onDone:(RCTResponseSenderBl
 
         photoEditor.colors = passColors;
 
+        // Pass line draw width
+        NSNumber *lineWidth = [props objectForKey: @"lineDrawWidth"];
+        photoEditor.lineDrawWidth = lineWidth;
+
         // Invoke Editor
         photoEditor.photoEditorDelegate = self;
 	

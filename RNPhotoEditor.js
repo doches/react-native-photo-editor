@@ -12,6 +12,7 @@ class PhotoEditor extends PureComponent {
     stickers: PropTypes.array,
     controls: PropTypes.array,
     colors: PropTypes.array,
+    lineDrawWidth: PropTypes.number,
 
     onDone: PropTypes.func,
     onCancel: PropTypes.func
@@ -34,7 +35,8 @@ class PhotoEditor extends PureComponent {
       "#00ffff",
       "#a52a2a",
       "#ff00ff"
-    ]
+    ],
+    lineDrawWidth: 15,
   };
 
   static Edit(props) {
