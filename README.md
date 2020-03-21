@@ -1,3 +1,6 @@
+> This is a fork of [prscX/react-native-photo-editor](https://github.com/prscX/react-native-photo-editor) -- it's totally unmaintained, so you
+> probably want the original repo, not this one!
+
 <h1 align="center">
 
 <p align="center">
