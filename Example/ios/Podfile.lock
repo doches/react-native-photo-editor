@@ -222,7 +222,7 @@ PODS:
     - React-Core
   - RNFS (2.14.1):
     - React
-  - RNPhotoEditor (1.0.0):
+  - RNPhotoEditor (1.0.1):
     - iOSPhotoEditor
     - React
   - Yoga (1.14.0)
