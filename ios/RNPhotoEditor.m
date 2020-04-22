@@ -80,7 +80,7 @@ RCT_EXPORT_METHOD(Edit:(nonnull NSDictionary *)props onDone:(RCTResponseSenderBl
             [passHiddenControls addObject: [[NSString alloc] initWithString: hiddenControl]];
         }
 
-        photoEditor.hiddenControls = passHiddenControls;
+        // photoEditor.hiddenControls = passHiddenControls;
 
         //Process Colors
         NSArray *colors = [props objectForKey: @"colors"];
@@ -94,7 +94,7 @@ RCT_EXPORT_METHOD(Edit:(nonnull NSDictionary *)props onDone:(RCTResponseSenderBl
 
         // Pass line draw width
         NSNumber *lineWidth = [props objectForKey: @"lineDrawWidth"];
-        photoEditor.lineDrawWidth = lineWidth;
+        // photoEditor.lineDrawWidth = lineWidth;
 
         // Invoke Editor
         photoEditor.photoEditorDelegate = self;
