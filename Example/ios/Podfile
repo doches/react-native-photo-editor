@@ -47,7 +47,7 @@ target 'Example' do
 
   use_frameworks!
 
-  pod 'iOSPhotoEditor', :git => 'https://github.com/prscX/photo-editor', :branch => 'master'
+  pod 'iOSPhotoEditor', :git => 'https://github.com/doches/photo-editor', :branch => 'master'
 
   post_install do |installer|
     installer.pods_project.targets.each do |target|
